@@ -1,0 +1,19 @@
+{
+    "language": "Français",
+    "@language": {
+        "description": "The current Language"
+    },
+    "helloWorld": "Bonjour le Monde !",
+    "@helloWorld": {
+        "description": "A programmer greeting"
+    },
+    "hello": "Bonjour {username}",
+    "@hello": {
+        "description": "A welcome message",
+        "placeholders": {
+            "username": {
+                "type": "String"
+            }
+        }
+    }
+}
